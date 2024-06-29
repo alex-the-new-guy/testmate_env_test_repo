@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/open-source/testmate_test/build",
+  "command": "C:/devel/tools/LLVM/bin/clang++.exe -Dtest_dll_EXPORTS  -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles/test_dll.dir/dll.cpp.obj -c C:/open-source/testmate_test/dll.cpp",
+  "file": "C:/open-source/testmate_test/dll.cpp",
+  "output": "CMakeFiles/test_dll.dir/dll.cpp.obj"
+},
+{
+  "directory": "C:/open-source/testmate_test/build",
+  "command": "C:/devel/tools/LLVM/bin/clang++.exe -DDLL_TEST @CMakeFiles/test_exe_link1.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles/test_exe_link1.dir/test.cpp.obj -c C:/open-source/testmate_test/test.cpp",
+  "file": "C:/open-source/testmate_test/test.cpp",
+  "output": "CMakeFiles/test_exe_link1.dir/test.cpp.obj"
+},
+{
+  "directory": "C:/open-source/testmate_test/build",
+  "command": "C:/devel/tools/LLVM/bin/clang++.exe -DDLL_TEST @CMakeFiles/test_exe_link2.dir/includes_CXX.rsp -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -o CMakeFiles/test_exe_link2.dir/test.cpp.obj -c C:/open-source/testmate_test/test.cpp",
+  "file": "C:/open-source/testmate_test/test.cpp",
+  "output": "CMakeFiles/test_exe_link2.dir/test.cpp.obj"
+}
+]

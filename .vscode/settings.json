@@ -1,0 +1,18 @@
+{
+
+  "testMate.cpp.debug.configTemplate": {
+    "type": "lldb",
+    "env": {
+      "PATH": "${workspaceFolder}/build/mydll"
+    }
+  },
+
+  "testMate.cpp.test.advancedExecutables": [
+    {
+      "pattern": "${workspaceFolder}/build/testexe/test_exe_link2.exe",
+      "env":{
+        "PATH": "${workspaceFolder}/build/mydll"
+      }
+    }
+  ]
+}

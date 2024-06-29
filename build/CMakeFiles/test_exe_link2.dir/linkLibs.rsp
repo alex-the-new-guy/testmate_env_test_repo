@@ -1,0 +1,1 @@
+ test_dll.lib C:/devel/tools/catch2/llvm/lib/Catch2Maind.lib C:/devel/tools/catch2/llvm/lib/Catch2d.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames 
